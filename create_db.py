@@ -71,7 +71,6 @@ def main() -> None:
         validate_db(conn)
     conn.close()
 
-    return None
 
 
 if __name__ == "__main__":
