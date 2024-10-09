@@ -21,6 +21,7 @@ import os
 #               of the query. default is "data/movies.csv"
 
 
+
 def get_paths() -> tuple:
     """Get the paths names from the arguments passed in
     @return a tuple containing (path_to_db, path_to_sql, path_to_csv)
